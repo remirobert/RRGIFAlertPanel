@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB247AA81CB94CFD00D66F7E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB247AA71CB94CFD00D66F7E /* AppKit.framework */; };
+		BB247AAA1CB94CFD00D66F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB247AA91CB94CFD00D66F7E /* Foundation.framework */; };
+		BB247AAE1CB94CFD00D66F7E /* RRGIFAlertPanel.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = BB247AAD1CB94CFD00D66F7E /* RRGIFAlertPanel.xcscheme */; };
+		BB247ACA1CB94D1A00D66F7E /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247ABC1CB94D1A00D66F7E /* NSObject_Extension.m */; };
+		BB247ACB1CB94D1A00D66F7E /* NSObject+MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247ABE1CB94D1A00D66F7E /* NSObject+MethodSwizzler.m */; };
+		BB247ACC1CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247AC01CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m */; };
+		BB247ACD1CB94D1A00D66F7E /* RRGIFAlertPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247AC21CB94D1A00D66F7E /* RRGIFAlertPanel.m */; };
+		BB247ACE1CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247AC41CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.m */; };
+		BB247ACF1CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247AC61CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.m */; };
+		BB247AD01CB94D1A00D66F7E /* RRGIFAlertPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB247AC91CB94D1A00D66F7E /* RRGIFAlertPanelView.m */; };
+		BB247AD51CB94D3500D66F7E /* giphy-failed.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB247AD31CB94D3500D66F7E /* giphy-failed.gif */; };
+		BB247AD61CB94D3500D66F7E /* giphy-suceeded.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB247AD41CB94D3500D66F7E /* giphy-suceeded.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB247AA41CB94CFD00D66F7E /* RRGIFAlertPanel.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRGIFAlertPanel.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB247AA71CB94CFD00D66F7E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		BB247AA91CB94CFD00D66F7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		BB247AAD1CB94CFD00D66F7E /* RRGIFAlertPanel.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = RRGIFAlertPanel.xcscheme; path = RRGIFAlertPanel.xcodeproj/xcshareddata/xcschemes/RRGIFAlertPanel.xcscheme; sourceTree = SOURCE_ROOT; };
+		BB247AB51CB94CFD00D66F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB247ABB1CB94D1A00D66F7E /* NSObject_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		BB247ABC1CB94D1A00D66F7E /* NSObject_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		BB247ABD1CB94D1A00D66F7E /* NSObject+MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzler.h"; sourceTree = "<group>"; };
+		BB247ABE1CB94D1A00D66F7E /* NSObject+MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzler.m"; sourceTree = "<group>"; };
+		BB247ABF1CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.h"; sourceTree = "<group>"; };
+		BB247AC01CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m"; sourceTree = "<group>"; };
+		BB247AC11CB94D1A00D66F7E /* RRGIFAlertPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGIFAlertPanel.h; sourceTree = "<group>"; };
+		BB247AC21CB94D1A00D66F7E /* RRGIFAlertPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGIFAlertPanel.m; sourceTree = "<group>"; };
+		BB247AC31CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGIFAlertPanelDataManager.h; sourceTree = "<group>"; };
+		BB247AC41CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGIFAlertPanelDataManager.m; sourceTree = "<group>"; };
+		BB247AC51CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGIFAlertPanelPluginXcode.h; sourceTree = "<group>"; };
+		BB247AC61CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGIFAlertPanelPluginXcode.m; sourceTree = "<group>"; };
+		BB247AC71CB94D1A00D66F7E /* RRGIFAlertPanelStaticKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGIFAlertPanelStaticKeys.h; sourceTree = "<group>"; };
+		BB247AC81CB94D1A00D66F7E /* RRGIFAlertPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGIFAlertPanelView.h; sourceTree = "<group>"; };
+		BB247AC91CB94D1A00D66F7E /* RRGIFAlertPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGIFAlertPanelView.m; sourceTree = "<group>"; };
+		BB247AD31CB94D3500D66F7E /* giphy-failed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-failed.gif"; sourceTree = "<group>"; };
+		BB247AD41CB94D3500D66F7E /* giphy-suceeded.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-suceeded.gif"; sourceTree = "<group>"; };
+		BB247AD91CB94E4100D66F7E /* DVTBezelAlertPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTBezelAlertPanel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB247AA21CB94CFD00D66F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB247AA81CB94CFD00D66F7E /* AppKit.framework in Frameworks */,
+				BB247AAA1CB94CFD00D66F7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB247A9B1CB94CFD00D66F7E = {
+			isa = PBXGroup;
+			children = (
+				BB247AAB1CB94CFD00D66F7E /* RRGIFAlertPanel */,
+				BB247AA61CB94CFD00D66F7E /* Frameworks */,
+				BB247AA51CB94CFD00D66F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB247AA51CB94CFD00D66F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB247AA41CB94CFD00D66F7E /* RRGIFAlertPanel.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB247AA61CB94CFD00D66F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB247AA71CB94CFD00D66F7E /* AppKit.framework */,
+				BB247AA91CB94CFD00D66F7E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB247AAB1CB94CFD00D66F7E /* RRGIFAlertPanel */ = {
+			isa = PBXGroup;
+			children = (
+				BB247AD71CB94D3B00D66F7E /* DefaultImages */,
+				BB247ABB1CB94D1A00D66F7E /* NSObject_Extension.h */,
+				BB247ABC1CB94D1A00D66F7E /* NSObject_Extension.m */,
+				BB247ABD1CB94D1A00D66F7E /* NSObject+MethodSwizzler.h */,
+				BB247ABE1CB94D1A00D66F7E /* NSObject+MethodSwizzler.m */,
+				BB247ABF1CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.h */,
+				BB247AC01CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m */,
+				BB247AC11CB94D1A00D66F7E /* RRGIFAlertPanel.h */,
+				BB247AC21CB94D1A00D66F7E /* RRGIFAlertPanel.m */,
+				BB247AC31CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.h */,
+				BB247AC41CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.m */,
+				BB247AC51CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.h */,
+				BB247AC61CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.m */,
+				BB247AC71CB94D1A00D66F7E /* RRGIFAlertPanelStaticKeys.h */,
+				BB247AC81CB94D1A00D66F7E /* RRGIFAlertPanelView.h */,
+				BB247AC91CB94D1A00D66F7E /* RRGIFAlertPanelView.m */,
+				BB247AD91CB94E4100D66F7E /* DVTBezelAlertPanel.h */,
+				BB247AB51CB94CFD00D66F7E /* Info.plist */,
+				BB247AAC1CB94CFD00D66F7E /* Supporting Files */,
+			);
+			path = RRGIFAlertPanel;
+			sourceTree = "<group>";
+		};
+		BB247AAC1CB94CFD00D66F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB247AAD1CB94CFD00D66F7E /* RRGIFAlertPanel.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB247AD71CB94D3B00D66F7E /* DefaultImages */ = {
+			isa = PBXGroup;
+			children = (
+				BB247AD31CB94D3500D66F7E /* giphy-failed.gif */,
+				BB247AD41CB94D3500D66F7E /* giphy-suceeded.gif */,
+			);
+			name = DefaultImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB247AA31CB94CFD00D66F7E /* RRGIFAlertPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB247AB81CB94CFD00D66F7E /* Build configuration list for PBXNativeTarget "RRGIFAlertPanel" */;
+			buildPhases = (
+				BB247AA01CB94CFD00D66F7E /* Sources */,
+				BB247AA11CB94CFD00D66F7E /* Resources */,
+				BB247AA21CB94CFD00D66F7E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRGIFAlertPanel;
+			productName = RRGIFAlertPanel;
+			productReference = BB247AA41CB94CFD00D66F7E /* RRGIFAlertPanel.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB247A9C1CB94CFD00D66F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Remi Robert";
+				TargetAttributes = {
+					BB247AA31CB94CFD00D66F7E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BB247A9F1CB94CFD00D66F7E /* Build configuration list for PBXProject "RRGIFAlertPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB247A9B1CB94CFD00D66F7E;
+			productRefGroup = BB247AA51CB94CFD00D66F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB247AA31CB94CFD00D66F7E /* RRGIFAlertPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB247AA11CB94CFD00D66F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB247AAE1CB94CFD00D66F7E /* RRGIFAlertPanel.xcscheme in Resources */,
+				BB247AD61CB94D3500D66F7E /* giphy-suceeded.gif in Resources */,
+				BB247AD51CB94D3500D66F7E /* giphy-failed.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB247AA01CB94CFD00D66F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB247AD01CB94D1A00D66F7E /* RRGIFAlertPanelView.m in Sources */,
+				BB247ACB1CB94D1A00D66F7E /* NSObject+MethodSwizzler.m in Sources */,
+				BB247ACF1CB94D1A00D66F7E /* RRGIFAlertPanelPluginXcode.m in Sources */,
+				BB247ACA1CB94D1A00D66F7E /* NSObject_Extension.m in Sources */,
+				BB247ACD1CB94D1A00D66F7E /* RRGIFAlertPanel.m in Sources */,
+				BB247ACC1CB94D1A00D66F7E /* NSObject+RRGIFAlertPanel_DVTBezelAlertPanel.m in Sources */,
+				BB247ACE1CB94D1A00D66F7E /* RRGIFAlertPanelDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB247AB61CB94CFD00D66F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		BB247AB71CB94CFD00D66F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		BB247AB91CB94CFD00D66F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = RRGIFAlertPanel/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRGIFAlertPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		BB247ABA1CB94CFD00D66F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = RRGIFAlertPanel/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.remirobert.RRGIFAlertPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB247A9F1CB94CFD00D66F7E /* Build configuration list for PBXProject "RRGIFAlertPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB247AB61CB94CFD00D66F7E /* Debug */,
+				BB247AB71CB94CFD00D66F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB247AB81CB94CFD00D66F7E /* Build configuration list for PBXNativeTarget "RRGIFAlertPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB247AB91CB94CFD00D66F7E /* Debug */,
+				BB247ABA1CB94CFD00D66F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB247A9C1CB94CFD00D66F7E /* Project object */;
+}
