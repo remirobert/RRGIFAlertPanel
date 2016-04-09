@@ -10,6 +10,9 @@ You can also find in the project the private Header of this class.
 :wrench: | Allows you to configure and change the GIF
 :floppy_disk: | Save configuration
 
+# Usage
+
+After installation, **RRGIFAlertPanel** is ready to use. You have two default images already setuped. Now, you can change it by your own, by selecting the menu in the **Edit** menu, then **RRAlertPanel configuration**.
 
 ![record](https://cloud.githubusercontent.com/assets/3276768/14404359/077ac0ea-fea6-11e5-890f-9ea5a1b5b677.gif)
 
