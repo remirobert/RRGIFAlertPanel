@@ -44,3 +44,5 @@ OR
 ```
 Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/RRGIFAlertPlugin.xcplugin/`
 ```
+
+If you like it, please give me a :star:
