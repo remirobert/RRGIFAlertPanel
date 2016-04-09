@@ -23,16 +23,24 @@ After installation, **RRGIFAlertPanel** is ready to use. You have two default im
 
 ## Install
 
+```
 Install via [Alcatraz](http://alcatraz.io/)
+```
 
 OR
 
+```
 Clone and build the project, then restart Xcode.
+```
 
 ## Uninstall
 
+```
 Uninstall via [Alcatraz](http://alcatraz.io/)
+```
 
 OR
 
+```
 Run `rm -r ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/RRGIFAlertPlugin.xcplugin/`
+```
