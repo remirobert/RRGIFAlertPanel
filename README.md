@@ -1,6 +1,6 @@
 # RRGIFAlertPanel
-Xcode plugin for replace the AlertPanel build succeeded and failed by an animated GIF of your choice !
-**RRGIFAlertPanel** uses some private API, and method swizzler to customise the DVTBezelAlertPanel object, in the runtime.
+**Xcode plugin** for replace the AlertPanel build *succeeded* and *failed* by an animated GIF of your choice !
+**RRGIFAlertPanel** uses some private API, and method swizzler to customise the **DVTBezelAlertPanel** object, in the runtime.
 You can also find in the project the private Header of this class.
 
               |  Features
