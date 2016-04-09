@@ -3,6 +3,11 @@ Xcode plugin for replace the AlertPanel build succeeded and failed by an animate
 
 ![record](https://cloud.githubusercontent.com/assets/3276768/14404359/077ac0ea-fea6-11e5-890f-9ea5a1b5b677.gif)
 
+## Prerequisites
+
+- Xcode 5+
+
+
 ## Install
 
 Install via [Alcatraz](http://alcatraz.io/)
